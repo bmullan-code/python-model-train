@@ -14,7 +14,7 @@ python custom_training_walkthrough.py
 
 Build docker image:
 
-docker build . -t <repo>/<name>
+docker build . -t repo/image-name
 
-docker run -it <repo>/<name>:latest
+docker run -it repo/image-name:latest
 
